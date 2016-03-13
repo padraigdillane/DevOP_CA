@@ -3,6 +3,7 @@ package decorator;
 public class CreateJersey {
     public static void main(String[] args) {
 
+        //comment test
         Jersey short_sleeve = new NumberPrinting(new NamePrinting(new ShortSleeve()));
         Jersey long_sleeve = new NumberPrinting(new LongSleeve());
         Jersey plain_short = new ShortSleeve();
