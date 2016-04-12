@@ -4,7 +4,7 @@ package decorator;
  * Created by Padraig on 10/6/2015.
  */
 public interface Jersey {
-//test commit to trigger jenkins 
+//test commit to trigger jenkins
     public String createJersey();
     public double cost();
 }
